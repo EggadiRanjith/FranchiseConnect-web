@@ -34,7 +34,7 @@ The FranchiseConnect web application is designed to streamline the management of
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/FranchiseConnect-web.git
+   git clone [https://github.com/yourusername/FranchiseConnect-web.git](https://github.com/EggadiRanjith/FranchiseConnect-web.git)
    ```
 
 2. **Set Up the Database**:
