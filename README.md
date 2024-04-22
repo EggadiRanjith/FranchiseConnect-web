@@ -82,4 +82,3 @@ This project is licensed under the terms of the [LICENSE](LICENSE.txt) file. Ple
 ## Support
 
 For support, feedback, or inquiries, please reach out to the project maintainer(s) at ranjitheggadi@gmail.com. We're here to help and welcome any questions or suggestions you may have!
-```
