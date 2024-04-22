@@ -1,0 +1,109 @@
+/* Importing Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.1rem;
+    text-decoration: none;
+}
+
+.navbar-brand span {
+    color: #c06b3e;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.navbar a:hover {
+    color: #c06b3e;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url("../images/franchise.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 0 20px;
+}
+
+.hero-section .content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.hero-section .content h2 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.hero-section .content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .content button {
+    background: #c06b3e;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero-section .content button:hover {
+    background: #a1512d;
+}
+
+@media (max-width: 768px) {
+    .hero-section .content h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section .content p {
+        font-size: 1rem;
+    }
+
+    .hero-section .content button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
